@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF‐8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>vue02测试页面</title>
+</head>
+<body>
+<div id="app">
+    <input type="text" v-model="num1"/>
+    +
+    <input type="text" v-model="num2"/>
+    =
+    <span v-text="result"></span>
+    <input type="button" value="计算" v-on:click="change"/>
+</div>
+</body>
+
+<script src="./build.js"></script>
+</html>
